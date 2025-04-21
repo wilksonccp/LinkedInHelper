@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinkedInHelper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d9352cf7d3cb7ae7f43ad25adba67d6c6df50c4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40f4cf900ac1b24a16628f9d0aa730b3bfc49e10")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinkedInHelper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinkedInHelper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

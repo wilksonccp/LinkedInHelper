@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinkedInHelper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+40f4cf900ac1b24a16628f9d0aa730b3bfc49e10")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinkedInHelper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinkedInHelper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

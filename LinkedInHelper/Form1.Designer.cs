@@ -1,4 +1,5 @@
-﻿namespace LinkedInHelper;
+﻿
+namespace LinkedInHelper;
 
 partial class Form1
 {
@@ -71,7 +72,6 @@ partial class Form1
         label1.Size = new Size(249, 39);
         label1.TabIndex = 4;
         label1.Text = "LinkedIn Helper";
-        label1.Click += label1_Click_1;
         // 
         // LabelInsert
         // 
@@ -116,6 +116,11 @@ partial class Form1
         Load += Form1_Load;
         ResumeLayout(false);
         PerformLayout();
+    }
+
+    private void label1_Click_1(object sender, EventArgs e)
+    {
+        throw new NotImplementedException();
     }
 
     #endregion

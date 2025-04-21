@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wilks\\OneDrive\\Documentos\\APRENDENDO A PROGRAMAR\\PROJECTS\\LinkedInHelper\\LinkedInHelper\\LinkedInHelper.csproj",
+      "projectUniqueName": "C:\\Users\\wilks\\OneDrive\\Documentos\\APRENDENDO A PROGRAMAR\\PROJECTS\\LinkedInHelper\\LinkedInHelper.csproj",
       "projectName": "LinkedInHelper",
-      "projectPath": "C:\\Users\\wilks\\OneDrive\\Documentos\\APRENDENDO A PROGRAMAR\\PROJECTS\\LinkedInHelper\\LinkedInHelper\\LinkedInHelper.csproj",
+      "projectPath": "C:\\Users\\wilks\\OneDrive\\Documentos\\APRENDENDO A PROGRAMAR\\PROJECTS\\LinkedInHelper\\LinkedInHelper.csproj",
       "packagesPath": "C:\\Users\\wilks\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wilks\\OneDrive\\Documentos\\APRENDENDO A PROGRAMAR\\PROJECTS\\LinkedInHelper\\LinkedInHelper\\obj\\",
+      "outputPath": "C:\\Users\\wilks\\OneDrive\\Documentos\\APRENDENDO A PROGRAMAR\\PROJECTS\\LinkedInHelper\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
