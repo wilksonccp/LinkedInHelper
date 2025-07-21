@@ -34,73 +34,79 @@ public partial class Form1 : Form
 
         string mensagem = tipo switch
         {
+            // Recrutadores
             "Convite Aceito - Recrutador Nacional" =>
 $@"Olá {nome}, obrigado por aceitar meu convite!
 
-Atualmente, atuo como desenvolvedor backend freelancer com foco em C# e .NET.
+Atuo como desenvolvedor backend com foco em C# e .NET. Sou um business-driven developer — minha experiência anterior em gestão de negócios me permite alinhar soluções técnicas aos objetivos estratégicos das empresas.
 
-Embora minha preferência seja por vagas remotas, também estou aberto a modelos híbridos ou presenciais, desde que o projeto permita uma boa contribuição da minha parte.
+Atualmente trabalho como freelancer, mas estou aberto a oportunidades formais onde minhas habilidades possam gerar impacto — seja no backend puro ou em projetos que combinem tecnologia e visão de negócios.
 
-Se houver alguma vaga que se alinhe ao meu perfil, será um prazer conversar!",
+Conhece alguma oportunidade onde eu possa contribuir? Será um prazer ajudar sua equipe!",
 
             "Convite Aceito - Recrutador Internacional" =>
 $@"Hi {nome}, thank you for accepting my invitation!
 
-I'm currently working as a freelance backend developer, focused on C# and .NET.
+I’m a backend developer focused on C# and .NET — a business-driven developer, using my background in business management to deliver solutions aligned with real business goals.
 
-Although I prioritize remote roles, I'm also open to hybrid or on-site opportunities — especially when the project is engaging and I can add value.
+Currently working as a freelancer, I’m open to full-time or project-based roles where I can contribute — either in purely technical positions or in projects that benefit from my strategic perspective.
 
-If there's an opportunity that matches my profile, I’d be happy to connect further!",
+Do you know of any opportunity where I could contribute? I’d be glad to help your team!",
 
+            "Aceitando Convite - Recrutador Nacional" =>
+$@"Olá {nome}, obrigado pelo contato!
+
+Sou desenvolvedor backend com foco em C# e .NET, atuando como freelancer. Me considero um business-driven developer — minha formação em administração me permite unir soluções técnicas a objetivos estratégicos das empresas.
+
+Estou aberto a oportunidades onde minhas habilidades possam gerar valor, seja em backend puro ou em projetos que combinem tecnologia e visão de negócios.
+
+Conhece alguma oportunidade onde eu possa contribuir? Será um prazer ajudar sua equipe!",
+
+            "Aceitando Convite - Recrutador Internacional" =>
+$@"Hi {nome}, thank you for reaching out!
+
+I’m a backend developer specialized in C# and .NET, currently working as a freelancer. I consider myself a business-driven developer, using my background in business management to align technical solutions with business needs.
+
+I’m open to both full-time and project-based roles, where my skills can help create real impact — whether purely technical or involving strategic collaboration.
+
+Do you know of any opportunity where I could contribute? I’d be glad to help your team!",
+
+            // Profissionais
             "Convite Aceito - Profissional Nacional" =>
-$@"Oi {nome}, obrigado por aceitar meu convite!
+$@"Olá {nome}, obrigado por aceitar meu convite!
 
-Atuo como desenvolvedor backend freelancer, com foco em C# e .NET.
+Atuo como desenvolvedor backend especializado em C# e .NET. Me considero um business-driven developer, pois minha formação anterior em administração me permite olhar a tecnologia como ferramenta estratégica para gerar resultados.
 
-Gosto muito de trocar ideias e fortalecer minha rede com profissionais da área — acredito que essa troca nos ajuda a crescer juntos.
+Admiro conexões que vão além do código — acredito que compartilhar experiências e ideias nos ajuda a crescer juntos.
 
 Vamos manter contato!",
 
             "Convite Aceito - Profissional Internacional" =>
 $@"Hi {nome}, thanks for connecting!
 
-I'm currently working as a freelance backend developer, specialized in C# and .NET.
+I’m a backend developer focused on C# and .NET — a business-driven developer, using my background in business management to deliver solutions that make sense for real-world businesses.
 
-I really value knowledge exchange and staying connected with fellow professionals — looking forward to sharing experiences and growing together!",
+I believe that meaningful connections go beyond code — sharing ideas and experiences helps us grow together.
 
-            "Aceitando Convite - Recrutador Nacional" =>
-$@"Olá {nome}, obrigado pelo contato!
-
-Sou desenvolvedor backend freelancer, com especialização em .NET, e estou em busca de oportunidades remotas, híbridas ou presenciais, conforme o alinhamento do projeto.
-
-Ficarei feliz em saber mais sobre as vagas com as quais você está trabalhando!",
-
-            "Aceitando Convite - Recrutador Internacional" =>
-$@"Hi {nome}, thank you for reaching out!
-
-I'm a backend developer specialized in .NET, currently working as a freelancer.
-
-While I’ve focused on remote roles, I'm also open to hybrid or on-site opportunities — especially when I can contribute meaningfully to the team.
-
-I’d love to hear more about the positions you’re recruiting for!",
+Let’s keep in touch!",
 
             "Aceitando Convite - Profissional Nacional" =>
-$@"Olá {nome}! Que bom poder me conectar com você por aqui. 😊
+$@"Olá {nome}! Que bom receber seu convite.
 
-Atuo como desenvolvedor backend freelancer, com foco em C# e .NET, e estou sempre em busca de evolução técnica e profissional — inclusive aprimorando meu inglês.
+Sou desenvolvedor backend especializado em C# e .NET. Me considero um business-driven developer, unindo minha experiência anterior em administração à tecnologia, sempre buscando soluções que gerem valor real para os negócios.
 
-Gosto muito de trocar experiências com colegas da área. Toda dica, insight ou ideia é muito bem-vinda!
+Acredito muito na troca entre profissionais como caminho para crescimento — tanto técnico quanto estratégico.
 
-Um grande abraço e sucesso nos seus projetos!",
+Vamos seguir conectados!",
 
             "Aceitando Convite - Profissional Internacional" =>
-$@"Hi {nome}! I'm glad to connect with you here on LinkedIn. 😊
+$@"Hi {nome}! Glad to receive your connection request.
 
-I'm currently working as a freelance backend developer, specialized in C# and .NET, and I’m constantly looking to grow technically and professionally.
+I’m a backend developer specialized in C# and .NET — a business-driven developer, combining my background in business management with technology to create real-world, value-driven solutions.
 
-I truly value exchanging insights with other professionals — I'm always open to sharing and learning together.
+I truly believe that sharing insights with fellow professionals helps us grow — technically and strategically.
 
-Wishing you success in your projects! Feel free to reach out anytime!",
+Let’s stay connected!",
 
             _ => "Tipo de mensagem não encontrado."
         };
