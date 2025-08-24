@@ -5,3 +5,4 @@ obj/
 *.cache
 .vscode/
 .vs/
+.fake
